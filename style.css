@@ -1,0 +1,139 @@
+* {
+  background-color: #dcfed2bd;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+h1 {
+  text-align: center;
+  background: transparent;
+}
+.contacts {
+  background: transparent;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background: transparent;
+}
+.box {
+  padding: 0.5em;
+  border-radius: 1rem;
+  background-color: #bfe1d8;
+}
+.form-tabs {
+  width: 100%;
+  background: transparent;
+}
+#contact-form {
+  font-size: 1.4rem;
+  padding: 30px;
+  padding-bottom: 2px;
+  align-items: start;
+  background: transparent;
+}
+.form-button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: transparent;
+}
+
+label {
+  font-weight: bold;
+  background: transparent;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1.4rem;
+  width: 100%;
+  background-color: #c1ede2;
+}
+
+button[type="submit"] {
+  padding: 7px 15px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+}
+button[type="submit"]:hover {
+  background-color: #177d1a;
+}
+.data {
+  flex: 1;
+  display: grid;
+  margin-top: 20px;
+  background-color: #bfe1d8;
+  padding: 5px;
+  border-radius: 3px;
+  padding-bottom: 3rem;
+  height: 100%;
+}
+.search-box {
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+input[type="text"]#search {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 50%;
+  background: rgb(229, 249, 249);
+}
+
+table {
+  border-collapse: collapse;
+  height: 100%;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #48bc9d;
+  color: white;
+  cursor: pointer;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
